@@ -1,6 +1,6 @@
 {
   "name": "node-local-server",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A Server Mapping Local Files Based On Node.js",
   "main": "index.js",
   "repository": "git@github.com:excaliburhan/local-server.git",
