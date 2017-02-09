@@ -38,4 +38,4 @@ function loadFile(pathname, res) {
 http.createServer(function (req, res) {
   // request path is like this: 'localhost/xxx.html'
   loadFile(req.url, res)
-}).listen(80)
+}).listen(settings.port || 80)
