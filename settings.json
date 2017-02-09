@@ -1,4 +1,5 @@
 {
+  "localDir": "/path-to-local-directory",
   "port": 80,
-  "localFile": "/path-to-local-directory"
+  "debug": true
 }

@@ -16,10 +16,11 @@ if (fs.existsSync(mySettings) && fs.statSync(mySettings).isFile()) {
 }
 
 // change it to your file path
-localFile = settings.localFile
+localDir = settings.localDir
 
 function loadFile(pathname, res) {
-  let filename = localFile + pathname
+  let filename = localDir + pathname
+  settings.debug && console.log(filename)
   if (fs.existsSync(filename) && fs.statSync(filename).isFile()) {
     fs.readFile(filename, function (err, data) {
       if (err) {

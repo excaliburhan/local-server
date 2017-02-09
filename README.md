@@ -9,3 +9,9 @@ A Server Mapping Local Files Based On Node.js
 ### Notice
 
 - the application runs at port 80
+
+### API(in settings.json)
+
+- localDir - the local directory
+- port - server port, default is 80
+- debug - console filename if it is true, default is true
