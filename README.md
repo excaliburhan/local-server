@@ -1,4 +1,4 @@
-# local-server
+# node-local-server
 A Server Mapping Local Files Based On Node.js
 
 ### Usage
@@ -10,7 +10,7 @@ A Server Mapping Local Files Based On Node.js
 
 - the application runs at port 80
 
-### API(in settings.json)
+### Settings(in settings.json)
 
 - localDir - the local directory
 - port - server port, default is 80
