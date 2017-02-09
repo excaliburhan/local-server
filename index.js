@@ -20,7 +20,6 @@ localFile = settings.localFile
 
 function loadFile(pathname, res) {
   let filename = localFile + pathname
-  console.log(filename)
   if (fs.existsSync(filename) && fs.statSync(filename).isFile()) {
     fs.readFile(filename, function (err, data) {
       if (err) {
