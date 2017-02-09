@@ -1,0 +1,9 @@
+{
+  "name": "local-server",
+  "version": "1.0.0",
+  "description": "A Server Mapping Local Files Based On Node.js",
+  "main": "index.js",
+  "repository": "git@github.com:excaliburhan/local-server.git",
+  "author": "xiaoping <edwardhjp@gmail.com>",
+  "license": "MIT"
+}
