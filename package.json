@@ -1,5 +1,5 @@
 {
-  "name": "local-server",
+  "name": "node-local-server",
   "version": "1.0.0",
   "description": "A Server Mapping Local Files Based On Node.js",
   "main": "index.js",
